@@ -1,0 +1,349 @@
+/**
+ * Plugin Name:       WPackage HR
+ * Plugin URI:        https://developer.unsocials.com/
+ * Description:       Design Style CSS
+ * Version:           1.0
+ * Author:            Mez
+ */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* File CSS Include  */
+
+@import 'header.css';
+@import 'module.css';
+@import 'candidate.css';
+
+form.formHR{
+  width: 500px;
+}
+
+form.formHR label,
+form.formHR input{
+  width: 100%;
+  font-size: 16px;
+
+  display:block;
+  margin-bottom: 10px;
+}
+
+p.msg {
+  font-size: 20px;
+  background-color: #83eac3;
+  padding: 20px;
+  display: inline-block;
+  color: #1d2327;
+  margin: 0;
+}
+
+
+.ztl {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  background-color: #fff;
+
+  margin-top: 30px;
+}
+
+
+.ztl h1{
+  line-height: 1.2;
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ztl .cartello{
+  width: 180px;
+  height: 180px;
+
+  border: 1px solid #000;
+  border-radius: 180px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.ztl .cartello span{
+  border: 20px solid rgb(213, 75, 75);
+  border-radius: 180px;
+
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
+  right: 5px;
+}
+
+/** --------------------------- */
+
+table.myTable{
+  width: 90%;
+}
+
+table.myTable tr td i{
+  font-size: 16px;
+}
+
+table.myTable thead tr td{
+  background-color: #535353;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table.myTable tbody tr td {
+  border: 1px solid #c4c4c4;
+  color: #2d2d2d;
+  padding: 8px;
+  font-size: 12px;
+}
+
+div.up{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #00000085;
+}
+
+a.btn_hr{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border: 1px solid #fff!important;
+  color: #fff!important;
+  font-size: 24p!important;
+}
+
+a.btn_hr,
+form.formHR button[type=submit] {
+  font-size: 16px;
+  border: 1px solid #1d2327;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #1d2327;
+  display: block;
+  width: 180px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+button.btn_ {
+  font-size: 12px;
+  border: 1px solid #009aff;
+  padding: 5px;
+  margin: 10px 0px 20px 0px;
+  cursor: pointer;
+  color: #009aff;
+  display: block;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#_btnPsw {
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  z-index: 9999999;
+  font-size: 20px;
+  border: none;
+  background-color: #e6e6e6;
+  bottom: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#_btnPsw .eyes i {
+  color: #1d2327;
+}
+
+._relative {
+  position: relative;
+}
+
+div._msg_{
+  position: fixed;
+  background-color: #f8f8f8;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -5px #000;
+}
+
+div.sel_{
+  display: flex;
+  align-content: center;
+  padding: 10px 0px;
+  width: 90%;
+
+  justify-content: space-between;
+}
+
+div.sel_ div{
+  font-weight: bold;
+  color: #1d2327;
+  display: flex;
+  align-items: center;
+  border: 1px solid #1d2327;
+  padding: 3px;
+}
+
+div.sel_ input[type=search]{
+  width: 300px;
+}
+
+div.sel_ input[type=search],
+div.sel_ button{
+  background-color: transparent;
+  border: none;
+}
+
+div.sel_ button {
+  cursor: pointer;
+}
+
+div.sel_ form {
+  margin: 0;
+}
+
+div.sel_ #viewCandidate,
+div.sel_ #downloadPacket,
+div.sel_ #downloadExcel {
+  background-color: transparent;
+  border: none;
+  width: 200px;
+}
+
+div.sel_ a.downloadPacket,
+div.sel_ a.downloadExcel{
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+div.sel_ span{
+  display: flex;
+}
+
+div.sel_ span:first-child div{
+  margin-right: 10px;
+}
+
+td[data-class="copy"] span.s_Copy{
+  cursor: pointer;
+  background-color: #d1d1d1;
+  padding: 7px;
+  color: #2d2d2d;
+  border-radius: 5px;
+}
+
+td span.date {
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  z-index: 999999999999;
+  position: absolute;
+  right: 10px;
+}
+
+td.progress{
+  position: relative;
+  overflow: hidden;
+  display: table-cell;
+  height: auto;
+  background-color: transparent!important;
+}
+
+td.progress progress[value]{
+  position: absolute;
+  background-color: #cacaca;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  width: 100%;
+  opacity: 0.3;
+}
+
+progress::-moz-progress-bar {
+  background: #6a4cf2;
+}
+
+progress::-webkit-progress-value {
+  background: #6a4cf2;
+}
+
+progress {
+  color: #6a4cf2;
+}
+
+.myTable tr {
+  position: relative;
+}
+
+.myTable .tooltipMenu{
+  text-decoration: none;
+}
+
+.myTable .tooltipMenu .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-left: -7.5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #6a4cf2 transparent transparent transparent;
+}
+
+.myTable .tooltipMenu .tooltiptext {
+  visibility: hidden;
+  width: 70px;
+  background-color: #6a4cf2;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -70%;
+  margin-left: -20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.myTable .tooltipMenu:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.perPages {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.perPages .pageLink {
+  border: 1px solid #6a4cf2;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.perPages .pageLink i{
+  font-size: 14px;
+  color: #6a4cf2;
+}

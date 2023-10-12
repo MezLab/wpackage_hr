@@ -1,0 +1,87 @@
+/**
+ * Plugin Name:       WPackage HR
+ * Plugin URI:        https://developer.unsocials.com/
+ * Description:       Design Style CSS Candidate
+ * Version:           1.0
+ * Author:            Mez
+ */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+div.candidate{
+  width: 80%;
+  display: flex;
+}
+
+div.candidate div.wrap{
+  margin-bottom: 20px;
+  background-color: #e1e1e1;
+  padding: 20px;
+}
+
+div.candidate div.wrap i{
+  font-size: 25px;
+  color: #6a4cf2;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+div.candidate div.wrap label {
+  font-size: 15px;
+  display: block;
+  font-weight: 700;
+}
+
+div.candidate div.wrap p {
+  font-size: 16px;
+  margin: 5px 0px;
+  background-color: #1d2327;
+  padding: 0px 30px;
+  color: #fff;
+}
+
+div.view_candidate {
+  width: 80%;
+}
+
+div.view_candidate .cand_Preview h2,
+div.view_candidate .cand_Preview {
+  margin: 0;
+}
+
+div.view_candidate .cand_Preview{
+  height: 700px;
+  border: 2px dashed #8c8c8c;
+  overflow: scroll;
+  padding: 20px;
+}
+
+div.candidate div.wrap {
+  border-radius: .5em;
+  padding: 20px 30px;
+}
+
+div.view_candidate .cand_Preview div {
+  float: left;
+  height: 100%;
+  overflow: auto;
+}
+
+div.view_candidate .cand_Preview div.data {
+  width: 40%;
+}
+
+div.view_candidate .cand_Preview div.file {
+  width: 60%;
+}
+
+div.view_candidate .cand_Preview div embed {
+  width: 100%;
+  height: 100%;
+}
+
+div.view_candidate .cand_Preview div p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,359 @@
+/**
+ * Plugin Name:       WPackage HR
+ * Plugin URI:        https://developer.unsocials.com/
+ * Description:       Design Style CSS Module
+ * Version:           1.0
+ * Author:            Mez
+ */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+form.create_module{
+  width: 80%;
+}
+
+form.create_module input,
+.canvas .originalForm input{
+  background-color: #ffffffd4;
+  padding: 10px;
+  width:100%;
+  font-size: 16px;
+}
+
+form.create_module div.style{
+  margin-bottom: 20px;
+  background-color: #e1e1e1;
+  padding: 20px;
+}
+
+form.create_module div.style label{
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+form.create_module button[type=submit]{
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  display: block;
+  width: 150px;
+  background-color: #6a4cf2;
+}
+
+form.create_module button[type=submit]:hover {
+  color: #6a4cf2;
+  border: 1px solid #6a4cf2;
+  background-color: transparent;
+}
+
+form.create_module textarea {
+  width: 100%;
+  height: 300px;
+}
+
+form.create_module .dash_control{
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+form.create_module .dash_control span{
+  width: 100px;
+  border: 1px solid #313131;
+  background-color: transparent;
+  padding: 5px 0px;
+  color: #313131;
+  cursor: pointer;
+
+  margin-bottom: 10px;
+  margin-right: 5px;
+
+  display: inline-block;
+}
+
+form.create_module .dash_control span:hover {
+  background-color: #313131;
+    color: #fff;
+}
+
+
+form.create_module .boxModel {
+  margin: 20px 0px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+form.create_module .boxModel h2,
+form.create_module .boxModel p,
+.canvas .formPreview h2,
+.canvas .formPreview p{
+  margin: 0;
+}
+
+.canvas .formPreview a.saveForm{
+  background-color: #68f7d6;
+  width: 100px;
+  display: block;
+  padding: 15px 10px;
+  color: #1d2327;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+form.create_module .setting{
+  width: 29%;
+  float: left;
+  margin-right: 1%;
+}
+
+.canvas {
+  width: 69%;
+  float: left;
+}
+
+.canvas .masterpiece{
+  height: 700px;
+  border: 2px dashed #8c8c8c;
+  overflow: scroll;
+}
+
+.canvas .formPreview{
+  padding: 20px;
+  background-color: #1d2327;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.canvas .formPreview h2,
+.canvas .formPreview p {
+  color: #fff;
+}
+
+.canvas .masterpiece .originalForm{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.canvas .masterpiece .originalForm input,
+.canvas .masterpiece .originalForm textarea,
+.canvas .masterpiece .originalForm select,
+.canvas .masterpiece .originalForm div.radio,
+.canvas .masterpiece .originalForm div.checkbox
+.canvas .masterpiece .originalForm p {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.canvas .masterpiece .originalForm input[type=file] {
+  display: block;
+}
+
+.canvas .masterpiece .originalForm input[type=submit] {
+  color: #6a4cf2;
+  border: 1px solid #6a4cf2;
+  background-color: transparent;
+}
+
+.canvas .masterpiece .originalForm input[type=radio],
+.canvas .masterpiece .originalForm input[type=checkbox]{
+  width: auto;
+  margin: 0px;
+}
+
+.canvas .masterpiece .originalForm div span {
+  display: flex;
+  align-items: center;
+}
+
+.canvas .masterpiece .originalForm div span label {
+  font-size: 14px;
+  margin: 5px 0px 5px 5px;
+}
+
+.canvas .masterpiece .originalForm p {
+  font-size: 14px;
+  margin: 0px 0px 5px;
+  font-weight: 700;
+}
+
+section.setInput {
+  width: 500px;
+  position: fixed;
+  background-color: #1d2327;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  display: none;
+
+  box-shadow: 0px 0px 50px -10px #000;
+
+  height: 600px;
+  overflow: scroll;
+}
+
+section.setInput p,
+section.setInput h2 {
+  color: #b2a1ff;
+  font-size: 16px;
+  margin: 15px 0px 0px;
+}
+
+section.setInput div.heading p,
+section.setInput div.heading h2 {
+  color: #f0f0f1;
+  margin: 0px
+}
+
+section.setInput div.heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.setInput input {
+  width: 60%;
+  border: 1px dashed #f0f0f1;
+  background-color: transparent;
+  color: #f0f0f1;
+}
+
+section.setInput input[type=checkbox]{
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+
+section.setInput input:focus {
+  border: 1px dashed #b2a1ff;
+  box-shadow: none;
+}
+
+section.setInput input[type="checkbox"]:checked::before {
+  content: "X";
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #b2a1ff;
+
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+section.setInput label {
+  color: #f0f0f1;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+section.setInput div.minMax{
+  display: flex;
+  align-items: center;
+}
+
+section.setInput div.minMax input {
+  width: 80px!important;
+}
+
+section.setInput textarea {
+  background-color: transparent;
+  border: 1px dashed #fff;
+  color: #fff;
+}
+
+section.setInput a{
+  width: 100px;
+  border: 1px solid #b2a1ff;
+  background-color: transparent;
+  padding: 10px 0px;
+  color: #b2a1ff !important;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+
+section.setInput button {
+  width: 100px;
+  border: 1px solid #b2a1ff;
+  background-color: transparent;
+  padding: 10px 0px;
+  color: #b2a1ff;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+
+section.setInput button:hover {
+  border: 1px solid #f0f0f1;
+  color: #f0f0f1;
+}
+
+div.sectionCode input[name=result],
+div.sectionCode input[name=shortcode] {
+  color: #b2a1ff;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #000;
+  border: 1px solid #b2a1ff;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+div.sectionCode {
+  padding: 20px;
+  background-color: #0b0b0b;
+  margin-top: 20px;
+}
+
+div.sectionCode p{
+  margin: 0px;
+}
+
+form#formSetInput div.inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.wrapElem {
+  display: flex;
+  align-items: baseline;
+  background-color: #dedede;
+  border-radius: .5em;
+  padding: 10px 20px;
+  cursor: move;
+  border-left: 10px solid #6a4cf2;
+}
+
+div.wrapElem span{
+  cursor: pointer;
+}
+
+div.wrapElem .elem{
+  width: 100%;
+  margin-left: 20px;
+}
+
+.originalForm {
+  display: grid;
+  /* grid-template-columns: max-content; */
+  gap: 10px;
+}
+
+.wrapElem.over {
+  border: 2px dotted #8ca8ff;
+}
